@@ -25,6 +25,42 @@ body{
 	text-align: center;
 	font-size: 2.5em;
 }
-.test{
-	background-color: orange;
+.main-wrap{
+	display: flex;
+	overflow: hidden;
+}
+.main {
+	width: 200%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	transform: rotate(-27deg) scale(2);
+}
+.main-content{
+	border: 1px solid red;
+	position: relative;
+}
+h3{
+	margin: 0;
+	position: absolute;
+}
+.text1{
+	bottom: 8%;
+	right: 8%;
+	transform: rotate(27deg);
+}
+.text2{
+	bottom: 8%;
+	left: 8%;
+	transform: rotate(27deg);
+}
+.text3{
+	top: 8%;
+	right: 8%;
+	transform: rotate(27deg);
+}
+.text4{
+	top: 8%;
+	left: 8%;
+	transform: rotate(27deg);
 }
