@@ -1,12 +1,15 @@
 *{
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 body{
 	height: 100vh;
 	background-color: #333;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	display: -ms-grid;
 	display: grid;
+	-ms-grid-rows: 1fr 9fr;
 	grid-template-rows: 1fr 9fr;
 }
 .header{
@@ -15,10 +18,19 @@ body{
 	background-size: cover;
 	min-height: 60px;
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .header-title{
 	margin: 0;
@@ -26,15 +38,38 @@ body{
 	font-size: 2.5em;
 }
 .main-wrap{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	overflow: hidden;
 }
 .main {
 	width: 200%;
+	display: -ms-grid;
 	display: grid;
+	-ms-grid-columns: 1fr 1fr;
 	grid-template-columns: 1fr 1fr;
+	-ms-grid-rows: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	transform: rotate(-27deg) scale(2);
+	-webkit-transform: rotate(-27deg) scale(2);
+	    -ms-transform: rotate(-27deg) scale(2);
+	        transform: rotate(-27deg) scale(2);
+}
+.main > *:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+}
+.main > *:nth-child(2) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 2;
+}
+.main > *:nth-child(3) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 1;
+}
+.main > *:nth-child(4) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 2;
 }
 .main-content{
 	border: 1px solid red;
@@ -47,20 +82,28 @@ h3{
 .text1{
 	bottom: 8%;
 	right: 8%;
-	transform: rotate(27deg);
+	-webkit-transform: rotate(27deg);
+	    -ms-transform: rotate(27deg);
+	        transform: rotate(27deg);
 }
 .text2{
 	bottom: 8%;
 	left: 8%;
-	transform: rotate(27deg);
+	-webkit-transform: rotate(27deg);
+	    -ms-transform: rotate(27deg);
+	        transform: rotate(27deg);
 }
 .text3{
 	top: 8%;
 	right: 8%;
-	transform: rotate(27deg);
+	-webkit-transform: rotate(27deg);
+	    -ms-transform: rotate(27deg);
+	        transform: rotate(27deg);
 }
 .text4{
 	top: 8%;
 	left: 8%;
-	transform: rotate(27deg);
+	-webkit-transform: rotate(27deg);
+	    -ms-transform: rotate(27deg);
+	        transform: rotate(27deg);
 }
