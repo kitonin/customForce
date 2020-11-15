@@ -4,8 +4,7 @@
 }
 body{
 	height: 100vh;
-	background: repeat center url(back_leather.jpg) #ddd;
-	background-size: contain;
+	background-color: #ddd;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	display: -ms-grid;
@@ -39,7 +38,7 @@ body{
 	font-size: 2.5em;
 }
 .main-wrap{
-	/*background-color: #222;*/
+	background-color: #222;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -53,59 +52,70 @@ body{
 	grid-template-columns: 1fr 1fr;
 	-ms-grid-rows: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	-webkit-transform: rotate(-27deg) scale(2);
-	    -ms-transform: rotate(-27deg) scale(2);
-	        transform: rotate(-27deg) scale(2);
+	-webkit-transform: rotate(-20deg) scale(2);
+	    -ms-transform: rotate(-20deg) scale(2);
+	        transform: rotate(-20deg) scale(2);
 }
 .main > *:nth-child(1) {
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
+	background: no-repeat left bottom url(back_leather.jpg);
+	background-size: cover;
 }
 .main > *:nth-child(2) {
 	-ms-grid-row: 1;
 	-ms-grid-column: 2;
+	color: #ddd;
+	background: no-repeat left bottom url(Nike-Forces.jpg);
+	background-size: cover;
 }
 .main > *:nth-child(3) {
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
+	color: #ddd;
+	background: no-repeat center url(disigners.jpg);
+	background-size: cover;
 }
 .main > *:nth-child(4) {
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
+	background: no-repeat left bottom url(back_leather.jpg);
+	background-size: cover;
 }
 .main-content{
 	border: 1px solid red;
 	position: relative;
 }
-h3{
+h4{
 	margin: 0;
 	position: absolute;
+	font-size: .8em;
 }
 .text1{
 	bottom: 8%;
 	right: 8%;
-	-webkit-transform: rotate(27deg);
-	    -ms-transform: rotate(27deg);
-	        transform: rotate(27deg);
+	-webkit-transform: rotate(20deg);
+	    -ms-transform: rotate(20deg);
+	        transform: rotate(20deg);
 }
 .text2{
 	bottom: 8%;
 	left: 8%;
-	-webkit-transform: rotate(27deg);
-	    -ms-transform: rotate(27deg);
-	        transform: rotate(27deg);
+	-webkit-transform: rotate(20deg);
+	    -ms-transform: rotate(20deg);
+	        transform: rotate(20deg);
 }
 .text3{
 	top: 8%;
 	right: 8%;
-	-webkit-transform: rotate(27deg);
-	    -ms-transform: rotate(27deg);
-	        transform: rotate(27deg);
+	-webkit-transform: rotate(20deg);
+	    -ms-transform: rotate(20deg);
+	        transform: rotate(20deg);
 }
 .text4{
 	top: 8%;
 	left: 8%;
-	-webkit-transform: rotate(27deg);
-	    -ms-transform: rotate(27deg);
-	        transform: rotate(27deg);
+	-webkit-transform: rotate(20deg);
+	    -ms-transform: rotate(20deg);
+	        transform: rotate(20deg);
 }
