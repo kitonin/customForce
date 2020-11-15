@@ -4,7 +4,8 @@
 }
 body{
 	height: 100vh;
-	background-color: #ddd;
+	background: repeat left url("back_leather.jpg") #ddd;
+	background-size: contain;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	display: -ms-grid;
@@ -38,14 +39,13 @@ body{
 	font-size: 2.5em;
 }
 .main-wrap{
-	background-color: #222;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	overflow: hidden;
 }
 .main {
-	width: 200%;
+	width: 100%;
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 1fr 1fr;
@@ -59,14 +59,14 @@ body{
 .main > *:nth-child(1) {
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
-	background: no-repeat left bottom url(back_leather.jpg);
+	background: no-repeat left bottom url(RICK.JPG);
 	background-size: cover;
 }
-.main > *:nth-child(2) {
+.main > *:nth-child(2){
 	-ms-grid-row: 1;
 	-ms-grid-column: 2;
 	color: #ddd;
-	background: no-repeat left bottom url(Nike-Forces.jpg);
+	background: no-repeat left top url(Nike-Forces.jpg);
 	background-size: cover;
 }
 .main > *:nth-child(3) {
@@ -79,11 +79,10 @@ body{
 .main > *:nth-child(4) {
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
-	background: no-repeat left bottom url(back_leather.jpg);
+	background: no-repeat left url(SPANCH.JPG);
 	background-size: cover;
 }
 .main-content{
-	border: 1px solid red;
 	position: relative;
 }
 h4{
