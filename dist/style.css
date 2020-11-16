@@ -17,7 +17,7 @@ body{
 	width: 100%;
 	background: no-repeat center url("back_leather.jpg") #ddd;
 	background-size: cover;
-	box-shadow: 0 0 6px 3px rgba(30,30,30,.8);
+	box-shadow: 0 0 6px 6px rgba(30,30,30,.9);
 	z-index: 1;
 	min-height: 60px;
 	position: relative;
@@ -133,4 +133,19 @@ h4{
 	-webkit-transform: rotate(20deg);
 	    -ms-transform: rotate(20deg);
 	        transform: rotate(20deg);
+}
+
+@keyframes scaling {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  100% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+}
+.makeScale{
+	z-index: 100;
+	animation: scaling 1s;
 }
