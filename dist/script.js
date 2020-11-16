@@ -17,7 +17,25 @@ uniq.onclick = function(event) {
 	uniq.classList.add("makeScale");
 	function moveToNext() {
 		document.location.href = "uniq/uniq.html";
-		uniq.classList.remove("makeScale");
+		// uniq.classList.remove("makeScale");
+	};
+	setTimeout(moveToNext, 700);
+};
+
+about.onclick = function(event) {
+	about.classList.add("makeScale");
+	function moveToNext() {
+		document.location.href = "about/about.html";
+		about.classList.remove("makeScale");
+	};
+	setTimeout(moveToNext, 700);
+};
+
+contacts.onclick = function(event) {
+	contacts.classList.add("makeScale");
+	function moveToNext() {
+		document.location.href = "contacts/contacts.html";
+		contacts.classList.remove("makeScale");
 	};
 	setTimeout(moveToNext, 700);
 };
