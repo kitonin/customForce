@@ -1,60 +1,28 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 *{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
 body{
 	height: 100vh;
-	background: repeat left url("back_leather.jpg") #ddd;
+	background: repeat left url("back_leather.jpg") #eee;
 	background-size: contain;
 	margin: 0;
+	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-rows: 1fr 9fr;
-	grid-template-rows: 1fr 9fr;
-}
-.header{
-	width: 100%;
-	background: no-repeat center url("back_leather.jpg") #ddd;
-	background-size: cover;
-	-webkit-box-shadow: 0 0 6px 6px rgba(30,30,30,.9);
-	        box-shadow: 0 0 6px 6px rgba(30,30,30,.9);
-	z-index: 1;
-	min-height: 60px;
-	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-}
-.header-title{
-	margin: 0;
-	text-align: center;
-	font-size: 2.5em;
+	-ms-grid-rows: 80px 1fr;
+	grid-template-rows: 80px 1fr;
 }
 .main-wrap{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	overflow: hidden;
+	position: relative;
 }
 .main {
+	position: relative;
 	width: 100%;
 	display: -ms-grid;
 	display: grid;
@@ -72,8 +40,6 @@ body{
 	-ms-grid-column: 1;
 	background: no-repeat left bottom url(RICK.JPG);
 	background-size: cover;
-	/*box-shadow: 2px 0 4px 1px rgba(225,225,225,0.8);*/
-	/*z-index: 40;*/
 }
 .main-content:nth-child(2){
 	-ms-grid-row: 1;
@@ -81,9 +47,6 @@ body{
 	color: #ddd;
 	background: no-repeat left top url(Nike-Forces.jpg);
 	background-size: cover;
-	/*box-shadow: 0 2px 4px 1px rgba(30,30,30,0.8);*/
-	/*z-index: 30;*/
-
 }
 .main-content:nth-child(3){
 	-ms-grid-row: 2;
@@ -91,16 +54,12 @@ body{
 	color: #ddd;
 	background: no-repeat center url(disigners.jpg);
 	background-size: cover;
-	/*box-shadow: -1px 0 4px 0 rgba(225,225,225,0.8);*/
-	/*z-index: 10;*/
 }
 .main-content:nth-child(4){
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
 	background: no-repeat left url(SPANCH.JPG);
 	background-size: cover;
-	/*box-shadow: -2px 0 4px 0 rgb(225,225,225, 0.8);*/
-	/*z-index: 20;*/
 }
 .main-content{
 	position: relative;
@@ -116,8 +75,6 @@ h4{
 .text1{
 	bottom: 5%;
 	right: 5%;
-	/*background-color: rgba(225,225,225,.6);*/
-	/*box-shadow: 0 0 20px 100px rgba(225,225,225,0.6);*/
 	-webkit-transform: rotate(20deg);
 	    -ms-transform: rotate(20deg);
 	        transform: rotate(20deg);
