@@ -59,39 +59,43 @@ body{
 	        transform: rotate(-20deg) scale(2);
 }
 .main-content:nth-child(1) {
+	border-radius: 16px;
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
 	background: no-repeat left bottom url(RICK.JPG);
 	background-size: cover;
-	box-shadow: 2px 0 4px 1px rgba(225,225,225,0.8);
-	z-index: 40;
+	/*box-shadow: 2px 0 4px 1px rgba(225,225,225,0.8);*/
+	/*z-index: 40;*/
 }
 .main-content:nth-child(2){
+	border-radius: 16px;
 	-ms-grid-row: 1;
 	-ms-grid-column: 2;
 	color: #ddd;
 	background: no-repeat left top url(Nike-Forces.jpg);
 	background-size: cover;
-	box-shadow: 0 2px 4px 1px rgba(30,30,30,0.8);
+	/*box-shadow: 0 2px 4px 1px rgba(30,30,30,0.8);*/
 	z-index: 30;
 
 }
 .main-content:nth-child(3) {
+	border-radius: 16px;
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
 	color: #ddd;
 	background: no-repeat center url(disigners.jpg);
 	background-size: cover;
 	/*box-shadow: -1px 0 4px 0 rgba(225,225,225,0.8);*/
-	z-index: 10;
+	/*z-index: 10;*/
 }
 .main-content:nth-child(4) {
+	border-radius: 16px;
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
 	background: no-repeat left url(SPANCH.JPG);
 	background-size: cover;
-	box-shadow: -2px 0 4px 0 rgb(225,225,225, 0.8);
-	z-index: 20;
+	/*box-shadow: -2px 0 4px 0 rgb(225,225,225, 0.8);*/
+	/*z-index: 20;*/
 }
 .main-content{
 	position: relative;
