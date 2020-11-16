@@ -147,5 +147,5 @@ h4{
 }
 .makeScale{
 	z-index: 100;
-	animation: scaling 1s;
+	animation: scaling .8s;
 }
