@@ -74,7 +74,7 @@ body{
 	background: no-repeat left top url(Nike-Forces.jpg);
 	background-size: cover;
 	/*box-shadow: 0 2px 4px 1px rgba(30,30,30,0.8);*/
-	z-index: 30;
+	/*z-index: 30;*/
 
 }
 .main-content:nth-child(3){
@@ -96,7 +96,7 @@ body{
 }
 .main-content{
 	position: relative;
-	border-radius: 30px;
+	border-radius: 20px;
 }
 h4{
 	margin: 0;
