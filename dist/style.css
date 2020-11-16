@@ -166,6 +166,6 @@ h4{
 }
 .makeScale{
 	z-index: 100;
-	-webkit-animation: scaling .8s;
-	        animation: scaling .8s;
+	-webkit-animation: scaling .5s;
+	        animation: scaling .5s;
 }

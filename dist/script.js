@@ -10,7 +10,7 @@ catalog.onclick = function(event) {
 		document.location.href = "catalog/catalog.html";
 		catalog.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 700);
+	setTimeout(moveToNext, 500);
 };
 
 uniq.onclick = function(event) {
@@ -19,7 +19,7 @@ uniq.onclick = function(event) {
 		document.location.href = "uniq/uniq.html";
 		uniq.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 700);
+	setTimeout(moveToNext, 500);
 };
 
 about.onclick = function(event) {
@@ -28,7 +28,7 @@ about.onclick = function(event) {
 		document.location.href = "about/about.html";
 		about.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 700);
+	setTimeout(moveToNext, 500);
 };
 
 contacts.onclick = function(event) {
@@ -37,5 +37,5 @@ contacts.onclick = function(event) {
 		document.location.href = "contacts/contacts.html";
 		contacts.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 700);
+	setTimeout(moveToNext, 500);
 };
