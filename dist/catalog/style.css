@@ -3,7 +3,30 @@ body{
 }
 .main{
 	background-color: #fffafa;
-
+}
+.main-content{
+	height: 100vh;
+	padding-top: 80px;
+	/*margin-top: -80px;*/
+	/*margin-bottom: -80px;*/
+	box-sizing: border-box;
+	display: grid;
+	grid-template-rows: 5fr 1.5fr 1fr 2.5fr;
+}
+.main-content_top{
+	margin-top: -80px;
+}
+.main-content_bottom{
+	padding-top: 0;
+	margin-bottom: -80px;
+	padding-bottom: 80px;
+}
+.main-content-image{
+	/*height: 375px;*/
+	padding: 20px;
+}
+.main-content-image_img{
+	height: 335px;
 }
 
 

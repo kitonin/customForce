@@ -4,7 +4,7 @@
 }
 body{
 	height: 100vh;
-	background: repeat left url("back_leather.jpg") #fffeef;
+	background: repeat left url("back_leather.jpg") #fffafa;
 	background-size: contain;
 	margin: 0;
 	padding: 0;
@@ -45,14 +45,14 @@ body{
 .main-content:nth-child(2){
 	-ms-grid-row: 1;
 	-ms-grid-column: 2;
-	color: #fffeef;
+	color: #fffafa;
 	background: no-repeat left top url(Nike-Forces.jpg);
 	background-size: cover;
 }
 .main-content:nth-child(3){
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
-	color: #fffeef;
+	color: #fffafa;
 	background: no-repeat center url(disigners.jpg);
 	background-size: cover;
 }
