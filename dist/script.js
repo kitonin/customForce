@@ -19,4 +19,5 @@ uniq.onclick = function(event) {
 		document.location.href = "uniq/uniq.html";
 		uniq.classList.remove("makeScale");
 	};
+	setTimeout(moveToNext, 700);
 };
