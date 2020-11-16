@@ -4,7 +4,7 @@
 }
 body{
 	height: 100vh;
-	background: repeat left url("back_leather.jpg") #eee;
+	background: repeat left url("back_leather.jpg") #fffeef;
 	background-size: contain;
 	margin: 0;
 	padding: 0;
@@ -40,18 +40,19 @@ body{
 	-ms-grid-column: 1;
 	background: no-repeat left bottom url(RICK.JPG);
 	background-size: cover;
+	color: #111;
 }
 .main-content:nth-child(2){
 	-ms-grid-row: 1;
 	-ms-grid-column: 2;
-	color: #ddd;
+	color: #fffeef;
 	background: no-repeat left top url(Nike-Forces.jpg);
 	background-size: cover;
 }
 .main-content:nth-child(3){
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
-	color: #ddd;
+	color: #fffeef;
 	background: no-repeat center url(disigners.jpg);
 	background-size: cover;
 }
@@ -60,6 +61,7 @@ body{
 	-ms-grid-column: 2;
 	background: no-repeat left url(SPANCH.JPG);
 	background-size: cover;
+	color: #111;
 }
 .main-content{
 	position: relative;
