@@ -2,10 +2,14 @@ let catalog = document.getElementById("catalog");
 
 catalog.onclick = function(event) {
 	catalog.classList.add("makeScale");
-	function scaling() {
+	function moveToNext() {
 		document.location.href = "catalog/catalog.html";
 	};
-	setTimeout(scaling, 1000);
+	setTimeout(moveToNext, 700);
+	function removeScaling() {
+		catalog.classList.remove("makeScale");
+	};
+	setTimeout(removeScaling, 1500);
 };
 
 // setTimeout(scaling, 2000);
