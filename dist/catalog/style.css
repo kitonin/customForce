@@ -30,7 +30,7 @@ body{
 .main-content-image{
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 .main-content-image_img{
     width: 100%;
@@ -38,7 +38,7 @@ body{
 }
 .main-content-descr{
     padding: 5px 0;
-    margin: 0 10px;
+    margin: 0 20px;
     border-bottom: 2px solid #222;
 }
 
@@ -49,7 +49,7 @@ body{
     grid-template-columns: 2fr 5fr;
     grid-column-gap: 10px;
     padding: 5px 0;
-    margin: 0 10px;
+    margin: 0 20px;
     border-bottom: 2px solid #222;
 }
 .main-content-btns_btn{
@@ -75,7 +75,7 @@ body{
 }
 .main-content-facts{
     padding: 5px 0;
-    margin: 0 10px;
+    margin: 0 20px;
     border-bottom: 2px solid #222;
 }
 .main-content:last-child > .main-content-facts{
