@@ -35,6 +35,8 @@ body{
     height: 100%;
 }
 .main-content-descr{
+    padding: 5px 0;
+    margin: 0 10px;
     border-bottom: 2px solid #111;
 }
 
@@ -42,7 +44,8 @@ body{
     display: grid;
     grid-template-columns: 2fr 5fr;
     grid-column-gap: 10px;
-    padding: 5px 10px;
+    padding: 5px 0;
+    margin: 0 10px;
     border-bottom: 2px solid #111;
 }
 .main-content-btns_btn{
@@ -67,5 +70,7 @@ body{
     background-color: #E34234;
 }
 .main-content-facts{
+    padding: 5px 0;
+    margin: 0 10px;
     border-bottom: 2px solid #111;
 }
