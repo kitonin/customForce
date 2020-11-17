@@ -40,7 +40,7 @@ body{
 	-ms-grid-column: 1;
 	background: no-repeat left bottom url(RICK.JPG);
 	background-size: cover;
-	color: #111;
+	color: #222;
 }
 .main-content:nth-child(2){
 	-ms-grid-row: 1;
@@ -61,7 +61,7 @@ body{
 	-ms-grid-column: 2;
 	background: no-repeat left url(SPANCH.JPG);
 	background-size: cover;
-	color: #111;
+	color: #222;
 }
 .main-content{
 	position: relative;

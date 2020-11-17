@@ -4,7 +4,7 @@ body{
 .main{
     background-color: #fffafa;
     padding: 0;
-    color: #111;
+    color: #222;
 }
 .main-content{
     height: 100vh;
@@ -37,7 +37,7 @@ body{
 .main-content-descr{
     padding: 5px 0;
     margin: 0 10px;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #222;
 }
 
 .main-content-btns{
@@ -46,7 +46,7 @@ body{
     grid-column-gap: 10px;
     padding: 5px 0;
     margin: 0 10px;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #222;
 }
 .main-content-btns_btn{
     padding: 0;
@@ -62,7 +62,7 @@ body{
     text-align: center;
 }
 .main-content-btns_size{
-    background-color: #111;
+    background-color: #222;
     color: #fffafa;
 }
 
@@ -72,5 +72,8 @@ body{
 .main-content-facts{
     padding: 5px 0;
     margin: 0 10px;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #222;
+}
+.main-content:last-child > .main-content-facts{
+    border-bottom: none;
 }
