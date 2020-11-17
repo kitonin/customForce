@@ -2,11 +2,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .main{
+    /*background: url(../back_leather.jpg) repeat left #fffafa;*/
     background-color: #fffafa;
     padding: 0;
     color: #222;
 }
 .main-content{
+    background: url(../back_leather.jpg) repeat left #fffafa;
     height: 100vh;
     padding-bottom: 80px;
     margin-bottom: -80px;
@@ -17,6 +19,7 @@ body{
     -ms-grid-rows: 50% 15% 9% auto;
     grid-template-rows: 50% 15% 9% auto;
     box-sizing: border-box;
+    /*border-radius: 20px;*/
 }
 .main-content_top{
     margin-top: -80px;
@@ -31,25 +34,29 @@ body{
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
     padding: 10px 20px;
+    background-color: #fffafa;
+    border-radius: 40px 40px 0 0;
 }
 .main-content-image_img{
     width: 100%;
     height: 100%;
 }
 .main-content-descr{
-    padding: 5px 0;
-    margin: 0 20px;
+    background-color: #fffafa;
+    padding: 5px 20px;
+    /*margin: 0 20px;*/
     border-bottom: 2px solid #222;
 }
 
 .main-content-btns{
+    background-color: #fffafa;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr 10px 5fr;
     grid-template-columns: 2fr 5fr;
     grid-column-gap: 10px;
-    padding: 5px 0;
-    margin: 0 20px;
+    padding: 5px 20px;
+    /*margin: 0 20px;*/
     border-bottom: 2px solid #222;
 }
 .main-content-btns_btn{
@@ -74,10 +81,8 @@ body{
     background-color: #E34234;
 }
 .main-content-facts{
-    padding: 5px 0;
-    margin: 0 20px;
-    border-bottom: 2px solid #222;
-}
-.main-content:last-child > .main-content-facts{
-    border-bottom: none;
+    background-color: #fffafa;
+    padding: 5px 20px;
+    /*margin: 0 20px;*/
+    border-radius: 0 0 40px 40px;
 }
