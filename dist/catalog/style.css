@@ -8,7 +8,8 @@ body{
     color: #222;
 }
 .main-content{
-    background: url(../back_leather.jpg) repeat left #fffafa;
+    background: url(../back_leather.jpg) repeat left #fff;
+    background-size: contain;
     height: 100vh;
     padding-bottom: 80px;
     margin-bottom: -80px;
@@ -30,7 +31,7 @@ body{
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
     padding: 20px;
-    background-color: #fffafa;
+    background-color: #fff;
     border-radius: 20px 20px 0 0;
 }
 .main-content-image_img{
@@ -38,14 +39,14 @@ body{
     height: 100%;
 }
 .main-content-descr{
-    background-color: #fffafa;
+    background-color: #fff;
     padding: 5px 20px;
     /*margin: 0 20px;*/
     /*border-bottom: 2px solid #222;*/
 }
 
 .main-content-btns{
-    background-color: #fffafa;
+    background-color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -77,14 +78,14 @@ body{
 }
 .main-content-btns_size{
     background-color: #222;
-    color: #fffafa;
+    color: #fff;
 }
 
 .main-content-btns_buy{
     background-color: #E34234;
 }
 .main-content-facts{
-    background-color: #fffafa;
+    background-color: #fff;
     padding: 5px 20px;
     /*margin: 0 20px;*/
     border-radius: 0 0 20px 20px;
