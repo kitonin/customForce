@@ -14,7 +14,8 @@ body{
             box-sizing: border-box;
     display: -ms-grid;
     display: grid;
-    grid-template-rows: 50% 15% 8% auto;
+    -ms-grid-rows: 50% 15% 9% auto;
+    grid-template-rows: 50% 15% 9% auto;
     box-sizing: border-box;
 }
 .main-content_top{
@@ -27,7 +28,8 @@ body{
     
 }
 .main-content-image{
-    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
     padding: 10px 10px;
 }
 .main-content-image_img{
@@ -41,7 +43,9 @@ body{
 }
 
 .main-content-btns{
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 2fr 10px 5fr;
     grid-template-columns: 2fr 5fr;
     grid-column-gap: 10px;
     padding: 5px 0;
