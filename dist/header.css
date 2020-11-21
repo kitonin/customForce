@@ -2,8 +2,8 @@
 	font-family: 'Roboto', sans-serif;
 	height: 80px;
 	width: 100%;
-	background: repeat center url("back_leather.jpg") #fff;
-	background-size: contain;
+	background: no-repeat center url("back_leather.jpg") #fff;
+	background-size: cover;
 	color: #222;
 	-webkit-box-shadow: 0 0 5px 3px rgba(30,30,30,.8);
 	        box-shadow: 0 0 5px 3px rgba(30,30,30,.8);
