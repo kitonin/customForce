@@ -1,0 +1,85 @@
+.content{
+    font-size: 1.1em;
+    background-color: #fff;
+    color: #222;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.content-wrap{
+    background: url(../back_leather.jpg) repeat left #fff;
+    background-size: contain;
+}
+.content-image{
+    background-color: #fff;
+    z-index: inherit;
+}
+.content-image_img{
+    z-index: inherit;
+    width: 100%;
+    height: 100%;
+}
+.content-descr{
+    background-color: #fff;
+    padding: 40px 20px 20px;
+    position: relative;
+}
+.content-descr_price{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.content-descr_text{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content-btns{
+    background-color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-top: 2px solid #e34234;
+    border-bottom: 2px solid #e34234;
+}
+.content-btns_wrap{
+    box-sizing: border-box;
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 10px 5fr;
+    grid-template-columns: 2fr 5fr;
+    grid-column-gap: 10px;
+    padding: 20px 0;
+}
+.content-btns_btn{
+    padding: 0 10px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    text-align: center;
+    height: 60px;
+}
+.content-btns_size{
+    background-color: #222;
+    color: #fff;
+}
+
+.content-btns_buy{
+    background-color: #E34234;
+    color: #000;
+}
+.content-facts{
+    background-color: #fff;
+    padding: 20px 20px 40px;
+    z-index: inherit;
+}
+.content-facts-list{
+    padding: 0;
+}
