@@ -65,7 +65,7 @@ body{
 }
 .main-content{
 	position: relative;
-	border-radius: 20px;
+	border-radius: 12px;
 	cursor: pointer;
 }
 h4{

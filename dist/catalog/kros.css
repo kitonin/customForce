@@ -2,7 +2,7 @@
     font-size: 1.1em;
     background-color: #fff;
     color: #222;
-    border-radius: 20px;
+    border-radius: 12px;
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
@@ -58,7 +58,7 @@
     font: inherit;
     color: inherit;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 6px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
