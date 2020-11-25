@@ -5,7 +5,7 @@
 	background-color: #222;
 	position: relative;
 	z-index: 1000;
-	-webkit-box-shadow: 0 0 5px 3px rgba(30,30,30,.8);
-	        box-shadow: 0 0 5px 3px rgba(30,30,30,.8);
+	-webkit-box-shadow: 0 0 6px 3px rgba(30,30,30,.8);
+	        box-shadow: 0 0 6px 3px rgba(30,30,30,.8);
 	        margin-top: auto;
 }
