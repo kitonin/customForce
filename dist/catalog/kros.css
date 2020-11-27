@@ -29,8 +29,8 @@
     font-weight: bold;
 }
 .content-descr_text{
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 1.2em;
+    /*font-weight: bold;*/
     text-transform: uppercase;
     margin-bottom: 10px;
 }

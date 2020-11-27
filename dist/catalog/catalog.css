@@ -1,27 +1,47 @@
 .catalog{
     font-family: 'Roboto', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3px;
     padding: 6px 3px;
     overflow: hidden;
     width: 100%;
     position: relative;
+    color: #222;
 }
 .catalog-item{
     position: relative;
     width: 100%;
-    border-radius: 6px;
     overflow: hidden;
 }
-.catalog-item a{
+.catalog-item-block{
     display: block;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-gap: 3px;*/
+    text-decoration: none;
 }
 .catalog-item img{
+    /*border-radius: 6px;*/
     object-fit : cover;
     height: auto;
+}
+.catalog-item-descr{
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px;
+}
+.catalog-item-descr:nth-child(2n+1){
+    text-align: right;
+}
+.catalog-item-descr-name{
+    text-decoration: none;
+    margin-bottom: 6px;
+    /*font-weight: bold;*/
+}
+.catalog-item-descr-price{
+    font-weight: bold;
+    font-size: 1.1em;
 }
 .catalog-item-kros1{
     background: url(kros1/kros1.jpg) no-repeat left top;
