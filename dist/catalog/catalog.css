@@ -10,15 +10,22 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-}
-.catalog-item-block{
-    display: block;
-    height: 100%;
-    width: 100%;
+    border-bottom: 1px #222 solid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    /*grid-gap: 3px;*/
+    grid-template-columns: 62fr 38fr;
     text-decoration: none;
+}
+.catalog-item:last-child{
+    border: none;
+}
+.catalog-item:nth-child(2n){
+    /*grid-template-columns: 2fr 3fr;*/
+}
+.catalog-item:nth-child(2n) img{
+    transform: translateX(61%);
+}
+.catalog-item:nth-child(2n) div{
+    transform: translateX(-163%);
 }
 .catalog-item img{
     /*border-radius: 6px;*/
@@ -30,18 +37,21 @@
     text-transform: uppercase;
     text-decoration: none;
     padding: 12px;
+    
 }
-.catalog-item-descr:nth-child(2n+1){
+.catalog-item:nth-child(2n) .catalog-item-descr{
     text-align: right;
 }
 .catalog-item-descr-name{
     text-decoration: none;
-    margin-bottom: 6px;
+    /*margin-bottom: 6px;*/
     /*font-weight: bold;*/
+    font-size: .9em;
 }
 .catalog-item-descr-price{
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    margin: 18px 0;
 }
 .catalog-item-kros1{
     background: url(kros1/kros1.jpg) no-repeat left top;
