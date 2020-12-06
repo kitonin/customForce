@@ -7,14 +7,12 @@
 	color: #222;
 	-webkit-box-shadow: 0 0 6px 3px rgba(30,30,30,.8);
 	        box-shadow: 0 0 6px 3px rgba(30,30,30,.8);
-	z-index: 1000;
-	min-height: 60px;
+	z-index: 100000;
 	position: relative;
 	display: grid;
 	grid-template-columns: 62fr 38fr;
 }
 .header-title{
-	vertical-align: middle;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -47,4 +45,80 @@
 	background: url(basket.png) no-repeat center;
 	background-size: cover;
 	margin-right: 10px;
+}
+.header-nav_menu{
+	margin-right: 10px;
+	box-sizing: content-box;
+	position: relative;
+}
+
+
+#hamburger-icon {
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 25px;
+}
+
+#hamburger-icon:hover .line {
+	background: #E34234;
+}
+
+#hamburger-icon:active .line {
+	opacity: .3;
+}
+
+#hamburger-icon .line {
+	display: block;
+	background: #222;
+	width: 40px;
+	height: 5px;
+	position: absolute;
+	left: 0;
+	border-radius: 1.25px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+#hamburger-icon .line.line-1 {
+	top: 0;
+}
+
+#hamburger-icon .line.line-2 {
+	top: 50%;
+}
+
+#hamburger-icon .line.line-3 {
+	top: 100%;
+}
+
+#hamburger-icon:hover .line-1,
+#hamburger-icon:focus .line-1 {
+	transform: translateY(-2.5px);
+	-webkit-transform: translateY(-2.5px);
+	-moz-transform: translateY(-2.5px);
+}
+
+#hamburger-icon:hover .line-3,
+#hamburger-icon:focus .line-3 {
+	transform: translateY(2.5px);
+	-webkit-transform: translateY(2.5px);
+	-moz-transform: translateY(2.5px);
+}
+
+#hamburger-icon.active .line-1 {
+	transform: translateY(10px) translateX(0) rotate(45deg);
+	-webkit-transform: translateY(10px) translateX(0) rotate(45deg);
+	-moz-transform: translateY(10px) translateX(0) rotate(45deg);
+}
+
+#hamburger-icon.active .line-2 {
+	opacity: 0;
+}
+
+#hamburger-icon.active .line-3 {
+	transform: translateY(-10px) translateX(0) rotate(-45deg);
+	-webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
+	-moz-transform: translateY(-10px) translateX(0) rotate(-45deg);
 }

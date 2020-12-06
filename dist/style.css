@@ -21,6 +21,7 @@ body{
 	overflow: hidden;
 	position: relative;
 	background: repeat left url("back_leather.jpg") #fffafa;
+	background-size: contain;
 	transform: rotate(-20deg) scale(1.8);
 }
 .main {

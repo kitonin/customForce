@@ -2,13 +2,11 @@
     font-size: 1.1em;
     background-color: #fff;
     color: #222;
-    border-radius: 12px;
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
 .content-wrap{
-    background: url(../back_leather.jpg) repeat left #fff;
-    background-size: contain;
+	padding: 0 12px;
 }
 .content-image{
     background-color: #fff;
