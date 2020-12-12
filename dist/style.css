@@ -67,7 +67,7 @@ body{
 	border-radius: 12px;
 	cursor: pointer;
 	color: #222;
-	border: 1px #222 solid;
+	/*border: 1px #222 solid;*/
 	box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;
 }
 h4{
