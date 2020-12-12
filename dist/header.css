@@ -108,9 +108,9 @@
 }
 
 #hamburger-icon.active .line-1 {
-	transform: translateY(10px) translateX(0) rotate(45deg);
-	-webkit-transform: translateY(10px) translateX(0) rotate(45deg);
-	-moz-transform: translateY(10px) translateX(0) rotate(45deg);
+	transform: translateY(20px) translateX(0);
+	-webkit-transform: translateY(20px) translateX(0);
+	-moz-transform: translateY(20px) translateX(0);
 }
 
 #hamburger-icon.active .line-2 {
@@ -118,7 +118,7 @@
 }
 
 #hamburger-icon.active .line-3 {
-	transform: translateY(-10px) translateX(0) rotate(-45deg);
-	-webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
-	-moz-transform: translateY(-10px) translateX(0) rotate(-45deg);
+	transform: translateY(-20px) translateX(0);
+	-webkit-transform: translateY(-20px) translateX(0);
+	-moz-transform: translateY(-20px) translateX(0);
 }
