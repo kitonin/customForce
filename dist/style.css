@@ -20,11 +20,9 @@ body{
 	position: relative;
 	background: repeat left url("back_leather.jpg") #fffafa;
 	background-size: contain;
-
 }
 .start{
 	position: relative;
-	z-index: 100;
 	background: url(start.jpg) no-repeat bottom;
 	background-size: cover;
 }
@@ -102,6 +100,7 @@ body{
 	    -ms-transform: rotate(-20deg) scale(1.8);
 	        transform: rotate(-20deg) scale(1.8);
 	position: relative;
+	z-index: 100;
 	width: 100%;
 	display: -ms-grid;
 	display: grid;
