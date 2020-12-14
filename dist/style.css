@@ -3,28 +3,76 @@
 	        box-sizing: border-box;
 }
 body{
-	height: 100vh;
-	background-size: contain;
+	height: 200vh;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-rows: 80px 1fr;
-	grid-template-rows: 80px 1fr;
-	overflow: hidden;
+	-ms-grid-rows: 80px 1fr 100vh;
+	grid-template-rows: 80px 1fr 100vh;
 }
 .main-wrap{
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
 	overflow: hidden;
 	position: relative;
 	background: repeat left url("back_leather.jpg") #fffafa;
 	background-size: contain;
-	transform: rotate(-20deg) scale(1.8);
+
+}
+.start{
+	position: relative;
+	z-index: 100;
+	background: url(start.jpg) no-repeat bottom;
+	background-size: cover;
+}
+.start_title{
+	width: 100%;
+	position: absolute;
+	top: 15%;
+	font-size: 2.4em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.triangle-down{
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
+	border-top: 12px double rgb(227, 66, 52);
+	border-right: 12px double rgb(227, 66, 52);
+	opacity: .6;
+	margin-right: 50px;
+	transform: rotate(135deg);
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: 60px;
+	animation: bounce 2s infinite alternate linear;
+
+}
+@keyframes bounce{
+	0%{
+		bottom: 60px;
+		transform: rotate(135deg) scale(1);
+		opacity: .6;
+	}
+	50%{
+		bottom: 55px;
+		transform: rotate(135deg) scale(1.1);
+		opacity: 1;
+	}
+	100%{
+		bottom: 65px;
+		transform: rotate(135deg) scale(.9);
+		opacity: .3;
+	}
 }
 .main {
+	/*overflow: hidden;*/
+	transform: rotate(-20deg) scale(1.8);
 	position: relative;
 	width: 100%;
 	display: -ms-grid;
