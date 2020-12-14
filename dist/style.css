@@ -16,6 +16,7 @@ body{
 .main-wrap{
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: flex;
 	overflow: hidden;
 	position: relative;
 	/*background: repeat left url("back_leather.jpg") #fffafa;*/
