@@ -18,7 +18,7 @@ body{
 	display: -ms-flexbox;
 	overflow: hidden;
 	position: relative;
-	background: repeat left url("back_leather.jpg") #fffafa;
+	/*background: repeat left url("back_leather.jpg") #fffafa;*/
 	background-size: contain;
 }
 .start{
