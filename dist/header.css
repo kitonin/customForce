@@ -150,13 +150,16 @@
 	transform: translateY(20px) translateX(0);
 	-webkit-transform: translateY(20px) translateX(0);
 	-moz-transform: translateY(20px) translateX(0);
+	background-color: #ff0033;
 }
 
 #hamburger-icon.active .line-2 {
+	background-color: #ff0033;
 	opacity: 0;
 }
 
 #hamburger-icon.active .line-3 {
+	background-color: #ff0033;
 	transform: translateY(-20px) translateX(0);
 	-webkit-transform: translateY(-20px) translateX(0);
 	-moz-transform: translateY(-20px) translateX(0);
