@@ -37,8 +37,8 @@
     background-color: #fff;
     /*padding: 0 20px;*/
     box-sizing: border-box;
-    border-top: 2px solid #e34234;
-    border-bottom: 2px solid #e34234;
+    border-top: 2px solid #ff0033;
+    border-bottom: 2px solid #ff0033;
 }
 .content-btns_wrap{
     box-sizing: border-box;
@@ -70,7 +70,7 @@
 }
 
 .content-btns_buy{
-    background-color: #E34234;
+    background-color: #ff0033;
     color: #222;
 }
 .content-facts{
