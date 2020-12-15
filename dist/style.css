@@ -2,7 +2,7 @@
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-body{
+.main{
 	height: 200vh;
 	position: relative;
 	margin: 0;
@@ -10,10 +10,10 @@ body{
 	font-family: 'Roboto', sans-serif;
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-rows: 80px 1fr 100vh;
-	grid-template-rows: 80px 1fr 100vh;
+	-ms-grid-rows: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
-.main-wrap{
+.menu-wrap{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -21,6 +21,11 @@ body{
 	position: relative;
 	background: repeat left url("back_leather.jpg") #fffafa;
 	background-size: contain;
+}
+.first{
+	position: relative;
+	display: grid;
+	grid-template-rows: 80px 1fr;
 }
 .start{
 	position: relative;
@@ -95,8 +100,8 @@ body{
 		opacity: .3;
 	}
 }
-.main {
-	/*overflow: hidden;*/
+.menu {
+	overflow: hidden;
 	-webkit-transform: rotate(-20deg) scale(1.8);
 	    -ms-transform: rotate(-20deg) scale(1.8);
 	        transform: rotate(-20deg) scale(1.8);
@@ -111,34 +116,34 @@ body{
 	grid-template-rows: 1fr 1fr;
 }
 
-.main-content:nth-child(1){
+.menu-content:nth-child(1){
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
 	background: repeat right bottom url(own.JPG) #fff;
 	background-size: contain;
 }
-.main-content:nth-child(2){
+.menu-content:nth-child(2){
 	-ms-grid-row: 1;
 	-ms-grid-column: 2;
 	/*color: #fffafa;*/
 	background: repeat left bottom url(catalog.JPG) #fff;
 	background-size: contain;
 }
-.main-content:nth-child(3){
+.menu-content:nth-child(3){
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
 	/*color: #fffafa;*/
 	background: repeat top right url(own.JPG);
 	background-size: contain;
 }
-.main-content:nth-child(4){
+.menu-content:nth-child(4){
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
 	background: no-repeat top left url(own.JPG) #fff;
 	background-size: contain;
 	/*color: #222;*/
 }
-.main-content{
+.menu-content{
 	position: relative;
 	border-radius: 12px;
 	cursor: pointer;
