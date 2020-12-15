@@ -149,8 +149,8 @@
 	cursor: pointer;
 	color: #222;
 	/*border: 1px #222 solid;*/
-	-webkit-box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;
-	        box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;
+	/*-webkit-box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;
+	        box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;*/
 }
 h4{
 	margin: 0;
