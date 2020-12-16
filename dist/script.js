@@ -10,7 +10,7 @@ catalog.onclick = function(event) {
 		document.location.href = "catalog/catalog.html";
 		// catalog.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 500);
+	setTimeout(moveToNext, 400);
 };
 
 uniq.onclick = function(event) {
@@ -19,7 +19,7 @@ uniq.onclick = function(event) {
 		document.location.href = "uniq/uniq.html";
 		// uniq.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 500);
+	setTimeout(moveToNext, 400);
 };
 
 about.onclick = function(event) {
@@ -28,7 +28,7 @@ about.onclick = function(event) {
 		document.location.href = "about/about.html";
 		// about.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 500);
+	setTimeout(moveToNext, 400);
 };
 
 contacts.onclick = function(event) {
@@ -37,7 +37,7 @@ contacts.onclick = function(event) {
 		document.location.href = "contacts/contacts.html";
 		// contacts.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 500);
+	setTimeout(moveToNext, 400);
 };
 
 // scroll
@@ -46,7 +46,7 @@ onePageScroll(".main", {
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
    easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
                                     // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-   animationTime: 444,             // AnimationTime let you define how long each section takes to animate
+   animationTime: 500,             // AnimationTime let you define how long each section takes to animate
    pagination: false,                // You can either show or hide the pagination. Toggle true for show, false for hide.
    updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
    // beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
