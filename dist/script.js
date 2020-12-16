@@ -8,36 +8,36 @@ catalog.onclick = function(event) {
 	catalog.classList.add("makeScale");
 	function moveToNext() {
 		document.location.href = "catalog/catalog.html";
-		// catalog.classList.remove("makeScale");
+		catalog.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 400);
+	setTimeout(moveToNext, 300);
 };
 
 uniq.onclick = function(event) {
 	uniq.classList.add("makeScale");
 	function moveToNext() {
 		document.location.href = "uniq/uniq.html";
-		// uniq.classList.remove("makeScale");
+		setTimeout(uniq.classList.remove("makeScale"),50);
 	};
-	setTimeout(moveToNext, 400);
+	setTimeout(moveToNext, 300);
 };
 
 about.onclick = function(event) {
 	about.classList.add("makeScale");
 	function moveToNext() {
 		document.location.href = "about/about.html";
-		// about.classList.remove("makeScale");
+		about.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 400);
+	setTimeout(moveToNext, 300);
 };
 
 contacts.onclick = function(event) {
 	contacts.classList.add("makeScale");
 	function moveToNext() {
 		document.location.href = "contacts/contacts.html";
-		// contacts.classList.remove("makeScale");
+		contacts.classList.remove("makeScale");
 	};
-	setTimeout(moveToNext, 400);
+	setTimeout(moveToNext, 300);
 };
 
 // scroll
