@@ -17,7 +17,7 @@ uniq.onclick = function(event) {
 	uniq.classList.add("makeScale");
 	function moveToNext() {
 		document.location.href = "uniq/uniq.html";
-		setTimeout(uniq.classList.remove("makeScale"),50);
+		uniq.classList.remove("makeScale");
 	};
 	setTimeout(moveToNext, 300);
 };
