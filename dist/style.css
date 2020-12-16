@@ -213,4 +213,5 @@ h4{
 	z-index: 100;
 	-webkit-animation: scaling .5s;
 	        animation: scaling .5s;
+	animation-fill-mode: none;
 }
