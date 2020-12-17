@@ -21,6 +21,8 @@
     background-color: #fff;
     padding: 40px 20px 20px;
     position: relative;
+    border-radius: 0 0 6px 6px;
+    border-bottom: 2px solid #ff0033;
 }
 .content-descr_price{
     font-size: 1.3em;
@@ -37,8 +39,9 @@
     background-color: #fff;
     /*padding: 0 20px;*/
     box-sizing: border-box;
-    border-top: 2px solid #ff0033;
+    /*border-top: 2px solid #ff0033;*/
     border-bottom: 2px solid #ff0033;
+    border-radius: 0 0 6px 6px;
 }
 .content-btns_wrap{
     box-sizing: border-box;
@@ -48,7 +51,7 @@
     -ms-grid-columns: 2fr 10px 5fr;
     grid-template-columns: 2fr 5fr;
     grid-column-gap: 10px;
-    padding: 20px 0;
+    padding: 12px 0;
 }
 .content-btns_btn{
     padding: 0 10px;

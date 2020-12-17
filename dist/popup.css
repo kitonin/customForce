@@ -1,12 +1,15 @@
 .popup-menu{
-	padding-top: 80px;
+	/*padding-top: 80px;*/
 	height: 100vh;
 	width: 100%;
 	z-index: 10000;
 	position: fixed;
-	top: 0;
+	left: 100%;
+	top:0;
 	background-color: #fff;
 	display: none;
+	animation: menuGo .6s forwards;
+	padding: 80px 12px 0 12px;
 }
 .popup-menu-item{
 	display: block;
@@ -17,7 +20,8 @@
 	color: #222;
 	padding: 40px;
 	align-items: center;
-	border-bottom: 1px #000 solid;
+	border-bottom: 2px #ff0033 solid;
+	border-radius: 0 0 6px 6px;
 }
 .popup-menu-item_title{
 	text-transform: uppercase;
@@ -26,4 +30,24 @@
 	/*padding-right: 38%;*/
 	text-align: center;
 	width: 100%;
+}
+
+@keyframes menuGo{
+	0%{
+		left:100%;
+	}
+	100%{
+		left:0;
+	}
+}
+.menu_out{
+	animation: menuOut .6s forwards;
+}
+@keyframes menuOut{
+	0%{
+		left:0;
+	}
+	100%{
+		left:100%;
+	}
 }

@@ -10,8 +10,12 @@ button.onclick = function() {
 		body.style.overflow = 'hidden';
 	}
 	else {
-		popUp.style.display = 'none';
 		button.classList.remove('active');
-		body.style.overflow = '';
+		popUp.classList.add('menu_out');
+		setTimeout(function () {
+			popUp.classList.remove('menu_out');
+			popUp.style.display = 'none';
+			body.style.overflow = '';
+		},1000)
 	}
 }

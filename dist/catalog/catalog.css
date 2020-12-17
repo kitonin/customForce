@@ -13,10 +13,11 @@
 	position: relative;
     width: 100%;
     overflow: hidden;
-    border-bottom: 1px #222 solid;
+    border-bottom: 2px #ff0033 solid;
     display: grid;
     grid-template-columns: 62fr 38fr;
     text-decoration: none;
+    border-radius: 0 0 6px 6px;
 }
 .catalog-item:last-child{
     border: none;
