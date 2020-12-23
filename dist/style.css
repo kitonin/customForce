@@ -40,7 +40,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: rgba(255,0,51,.5) 3px 3px 0;
+	text-shadow: rgba(255,255,255,.4) 3px 3px 0;
 }
 .triangle-down{
 	width: 50px;
@@ -165,7 +165,7 @@ h4{
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
-	text-shadow: rgba(255, 0, 51,.5) 1px 1px 0;
+	text-shadow: rgba(255, 0, 51,.5) 2px 2px 0;
 }
 .text1{
 	bottom: 5%;
