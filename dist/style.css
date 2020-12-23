@@ -40,7 +40,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: rgba(255,255,255,.4) 3px 3px 0;
+	text-shadow: rgba(255,0,51,.35) 3px 3px 0;
 }
 .triangle-down{
 	width: 50px;
@@ -147,6 +147,7 @@
 	/*color: #222;*/
 }
 .menu-content{
+	z-index: 100;
 	position: relative;
 	border-radius: 12px;
 	cursor: pointer;
@@ -165,7 +166,7 @@ h4{
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
-	text-shadow: rgba(255, 0, 51,.5) 2px 2px 0;
+	text-shadow: rgba(255, 0, 51,.35) 2px 2px 0;
 }
 .text1{
 	bottom: 5%;
