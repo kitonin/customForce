@@ -39,7 +39,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: rgba(255,0,51,.35) 3px 3px 0;
+	text-shadow: rgba(255,0,51,.25) 2px 2px 1px;
 }
 .triangle-down{
 	width: 50px;
