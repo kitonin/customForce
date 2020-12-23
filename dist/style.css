@@ -19,8 +19,7 @@
 	display: flex;
 	overflow: hidden;
 	position: relative;
-	background: repeat left url("back_leather.jpg") #fffafa;
-	background-size: contain;
+	background-color: #ff0033;
 }
 .first{
 	position: relative;
@@ -120,9 +119,12 @@
 .menu-content:nth-child(1){
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
+	background: url(back_leather.jpg) repeat center;
+	background-size: contain;
 	/*background: repeat right bottom url(own.JPG) #fff;*/
 	/*background-size: contain;*/
 	background-position: bottom right;
+	box-shadow: 0 0 0 1px #000 inset;
 }
 .menu-content:nth-child(2){
 	-ms-grid-row: 1;
@@ -139,9 +141,12 @@
 	/*background-size: contain;*/
 }
 .menu-content:nth-child(4){
+	background: url(back_leather.jpg) repeat center;
+	background-size: contain;
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
 	background-position: top left;
+	box-shadow: 0 0 0 1px #000 inset;
 	/*background: no-repeat top left url(own.JPG) #fff;*/
 	/*background-size: contain;*/
 	/*color: #222;*/
@@ -151,7 +156,6 @@
 	position: relative;
 	border-radius: 12px;
 	cursor: pointer;
-	color: #222;
 	background: repeat url(catalog.JPG);
 	background-size: contain;
 	box-shadow: 0 0 0 1px #fff inset;
@@ -162,9 +166,8 @@
 h4{
 	margin: 0;
 	position: absolute;
-	font-size: 1em;
+	font-size: .9em;
 	font-weight: bold;
-	color: #fff;
 	text-transform: uppercase;
 	text-shadow: rgba(255, 0, 51,.35) 2px 2px 0;
 }
@@ -176,6 +179,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text2{
+	color: #fff;
 	bottom: 7%;
 	left: 7%;
 	-webkit-transform: rotate(20deg);
@@ -183,6 +187,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text3{
+	color: #fff;
 	top: 7%;
 	right: 7%;
 	-webkit-transform: rotate(20deg);
