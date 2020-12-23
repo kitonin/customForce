@@ -40,6 +40,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
+	text-shadow: rgba(255,0,51,.5) 3px 3px 0;
 }
 .triangle-down{
 	width: 50px;
@@ -119,8 +120,8 @@
 .menu-content:nth-child(1){
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
-	background: repeat right bottom url(own.JPG) #fff;
-	background-size: contain;
+	/*background: repeat right bottom url(own.JPG) #fff;*/
+	/*background-size: contain;*/
 }
 .menu-content:nth-child(2){
 	-ms-grid-row: 1;
@@ -133,14 +134,14 @@
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
 	/*color: #fffafa;*/
-	background: repeat top right url(own.JPG);
-	background-size: contain;
+	/*background: repeat top right url(own.JPG);*/
+	/*background-size: contain;*/
 }
 .menu-content:nth-child(4){
 	-ms-grid-row: 2;
 	-ms-grid-column: 2;
-	background: no-repeat top left url(own.JPG) #fff;
-	background-size: contain;
+	/*background: no-repeat top left url(own.JPG) #fff;*/
+	/*background-size: contain;*/
 	/*color: #222;*/
 }
 .menu-content{
@@ -148,6 +149,9 @@
 	border-radius: 12px;
 	cursor: pointer;
 	color: #222;
+	background: repeat left bottom url(catalog.JPG);
+	background-size: contain;
+	box-shadow: 0 0 0 1px #fff;
 	/*border: 1px #222 solid;*/
 	/*-webkit-box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;
 	        box-shadow: 0 0 40px 40px rgba(255,255,255, .8) inset;*/
@@ -157,7 +161,9 @@ h4{
 	position: absolute;
 	font-size: .8em;
 	font-weight: bold;
+	color: #fff;
 	text-transform: uppercase;
+	text-shadow: rgba(255, 0, 51,.5) 1px 1px 0;
 }
 .text1{
 	bottom: 5%;
