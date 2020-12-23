@@ -162,36 +162,36 @@
 h4{
 	margin: 0;
 	position: absolute;
-	font-size: .8em;
+	font-size: 1em;
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: rgba(255, 0, 51,.35) 2px 2px 0;
 }
 .text1{
-	bottom: 5%;
-	right: 5%;
+	bottom: 7%;
+	right: 7%;
 	-webkit-transform: rotate(20deg);
 	    -ms-transform: rotate(20deg);
 	        transform: rotate(20deg);
 }
 .text2{
-	bottom: 5%;
-	left: 5%;
+	bottom: 7%;
+	left: 7%;
 	-webkit-transform: rotate(20deg);
 	    -ms-transform: rotate(20deg);
 	        transform: rotate(20deg);
 }
 .text3{
-	top: 5%;
-	right: 5%;
+	top: 7%;
+	right: 7%;
 	-webkit-transform: rotate(20deg);
 	    -ms-transform: rotate(20deg);
 	        transform: rotate(20deg);
 }
 .text4{
-	top: 5%;
-	left: 5%;
+	top: 7%;
+	left: 7%;
 	-webkit-transform: rotate(20deg);
 	    -ms-transform: rotate(20deg);
 	        transform: rotate(20deg);
