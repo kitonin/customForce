@@ -1,7 +1,8 @@
-// let item = document.getElementsByClassName("catalog-item");
-// console.log(item);
+// let btn = document.getElementById('basket');
+// let link = document.getElementById('link');
 
-// for (var key in item) {
-// 	item[key].style.height = item[key].offsetWidth + "px";
+// btn.onclick = function() {
+// 	link.addEventListener("click", function(event) {
+// 		event.preventDefault();
+// 	}, false);
 // }
-

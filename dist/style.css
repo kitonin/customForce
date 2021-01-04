@@ -7,7 +7,7 @@
 	position: relative;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-rows: 1fr 1fr;
@@ -178,7 +178,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text2{
-	color: #fff;
+	color: #eae6ca;
 	bottom: 7%;
 	left: 7%;
 	-webkit-transform: rotate(20deg);
@@ -186,7 +186,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text3{
-	color: #fff;
+	color: #fcfcee;
 	top: 7%;
 	right: 7%;
 	-webkit-transform: rotate(20deg);

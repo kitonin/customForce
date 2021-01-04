@@ -3,7 +3,7 @@
     background-color: #fff;
     color: #222;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .content-wrap{
 	padding: 0 12px;
@@ -69,12 +69,12 @@
 }
 .content-btns_size{
     background-color: #222;
-    color: #fff;
+    color: #eae6ca;
 }
 
 .content-btns_buy{
     background-color: #ff0033;
-    color: #222;
+    color: #eae6ca;
 }
 .content-facts{
     background-color: #fff;
