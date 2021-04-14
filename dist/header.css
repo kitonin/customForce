@@ -78,6 +78,13 @@
 	position: relative;
 	height: 40%;
 }
+.header-nav_call{
+	width: 40px;
+	height: 50%;
+	background: url(call.png) no-repeat center;
+	background-size: contain;
+	margin-right: 10px;
+}
 
 
 #hamburger-icon {

@@ -171,6 +171,7 @@ h4{
 	text-shadow: rgba(255, 0, 51,.25) 1px 1px 0;
 }
 .text1{
+	color: #111;
 	bottom: 7%;
 	right: 7%;
 	-webkit-transform: rotate(20deg);
@@ -178,7 +179,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text2{
-	color: #eae6ca;
+	color: #dcd6d2;
 	bottom: 7%;
 	left: 7%;
 	-webkit-transform: rotate(20deg);
@@ -186,7 +187,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text3{
-	color: #fcfcee;
+	color: #dcd6d2;
 	top: 7%;
 	right: 7%;
 	-webkit-transform: rotate(20deg);
@@ -194,6 +195,7 @@ h4{
 	        transform: rotate(20deg);
 }
 .text4{
+	color: #111;
 	top: 7%;
 	left: 7%;
 	-webkit-transform: rotate(20deg);
